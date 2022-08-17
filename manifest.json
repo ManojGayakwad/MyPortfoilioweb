@@ -1,0 +1,13 @@
+{
+    "name": "My personal Extension",
+    "version": "1.0.0",
+    "description": "It is personal site for projects",
+    "manifest_version": 3,
+    "author": "Manoj Gayakwad",
+    "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+    "host_permissions": ["https://www.google.com/"],
+    "action":{
+    "default_popup": "index.html",
+    "default_title": "MySite"
+    }
+   }
